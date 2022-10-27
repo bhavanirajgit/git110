@@ -8,20 +8,23 @@ public class EmployeeDetails {
 			System.out.println("9876543210");
 
 		}
-      private void empId() {
-	        System.out.println("Employee Id: xxx");
+     
+	        private void empAdd() {
+				System.out.println("kovilpatti");
+
+			}
+			   
+	        public static void main(String[] args) {
+	    		EmployeeDetails e = new EmployeeDetails();	
+	    		e.empName();
+	    		e.empNumber();
+	    		e.empAdd();
+	    		
+	    		}   
+ 
+
+
 
 }
-		
-    	public static void main(String[] args) {
-		     EmployeeDetails e = new EmployeeDetails();	
-		      e.empName();
-		      e.empNumber();
-	          e.empId();
-    	}
 
 
-
-
-
-}
