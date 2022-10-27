@@ -9,10 +9,18 @@ public class EmployeeDetails {
 
 		}
 
+		private void empAdd() {
+			System.out.println("kovilpatti");
+
+		}
+		
+		
 		public static void main(String[] args) {
 		EmployeeDetails e = new EmployeeDetails();	
 		e.empName();
 		e.empNumber();
+		e.empAdd();
+		
 		}
 
 
